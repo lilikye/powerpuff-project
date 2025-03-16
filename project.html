@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Publik</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username"></label>
+                <input type="text" placeholder="username"  name="username" required>
+                <img src="user.jpg">
+            </div>
+            <div class="input-group">
+                <label for="password"></label>
+                <input type="password" placeholder="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                <label for="rememberMe">Remember me</label>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="links">
+            <a href="#">Forgot password?</a>
+            <a href="#">Don't have an account? Register</a>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
